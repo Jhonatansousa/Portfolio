@@ -1,0 +1,101 @@
+.about {
+  height: 80vh;
+  background-color: #E1E5F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.imageAbout img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  max-height: 30rem;
+}
+
+.imageAbout,
+.textAbout {
+  width: 40%;
+  margin: auto 0;
+}
+
+.textAbout p {
+  color: rgb(67, 67, 67);
+}
+
+
+
+.textAbout h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: .5rem 2rem;
+  border-left: .2rem solid var(--color-type-1);
+}
+
+.textAbout p:first-of-type {
+  margin-bottom: 2.5rem;
+  font-style: italic;
+}
+
+.textAbout span {
+  font-weight: bold;
+}
+
+.about button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .7rem;
+
+  background-color: rgb(52, 52, 52);
+  border: none;
+  color: #fff;
+}
+
+.about button:hover {
+  background-color: rgb(119, 119, 119);
+  transition: .2s;
+  cursor: pointer;
+}
+
+.about button:active {
+  transform: scale(.95);
+  background-color: var(--color-type-1);
+}
+
+@media (max-width: 1000px) {
+
+  .imageAbout {
+    width: 50%;
+    right: 5rem;
+  }
+
+  .imageAbout img {
+    opacity: .5;
+  }
+
+  .textAbout {
+    width: 50%;
+  }
+
+  @media (max-width: 850px) {
+    .imageAbout {
+      display: none;
+    }
+
+
+    .textAbout {
+      width: 100vw;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    .about {
+      padding: 0 2rem;
+    }
+  }
+}

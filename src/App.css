@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --color-type-1: #81c281;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 52, 52);
+  transition: .2s ease-out;
+}
+
+/* react-on-screen */
+.invisible {
+  visibility: hidden;
+}

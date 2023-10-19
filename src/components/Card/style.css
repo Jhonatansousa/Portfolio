@@ -1,0 +1,32 @@
+.card {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  color: #fff;
+}
+
+.card img {
+  width: 9rem;
+}
+
+.card h1 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  line-height: 1.3rem;
+}
+
+
+@media (max-width: 1050px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 70%;
+  }
+}

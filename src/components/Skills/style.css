@@ -1,0 +1,44 @@
+.skills {
+  height: 27rem;
+  width: 100%;
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 5rem;
+}
+
+
+.mySwiper {
+  padding: 2.5rem;
+  cursor: grab;
+}
+
+.mySwiper:active {
+  cursor: grabbing;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--color-type-1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-type-1);
+}
+
+
+
+
+@media (max-width: 1050px) {
+  .skills {
+    padding: 0;
+  }
+
+  @media (max-width: 550px) {
+    .skills {
+      height: 35rem;
+    }
+  }
+}
