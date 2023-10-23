@@ -49,7 +49,7 @@ const About = () => {
           {({ isVisible }) =>
             <div className={isVisible ? 'animate__animated animate__fadeInUp animate__slow' : 'invisible'}>
 
-              <p>Sou apaixonado por criar interfaces incríveis e funcionais para a web. Com conhecimentos em <span>HTML, CSS, JavaScript, ReactJS, Git e GitHub</span>, amo construir sites e aplicativos web responsivos e agradáveis aos usuários.</p>
+              <p>Sou apaixonado por criar interfaces incríveis e funcionais para a web. Com conhecimentos em <span>HTML, CSS, JavaScript, TypeScript, ReactJS, Git e GitHub</span>, amo construir sites e aplicativos web responsivos e agradáveis aos usuários. Atualmente estou na faculdade de <span>Engenharia de Software</span> na Estácio, afim de aprimorar cada vez mais meus conhecimentos.</p>
             </div>}
         </TrackVisibility>
 

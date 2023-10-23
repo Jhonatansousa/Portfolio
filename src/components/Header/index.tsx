@@ -8,11 +8,14 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const header = document.getElementById('header');
-      const windowHeight = window.innerHeight;
-      const scrollPosition = window.pageYOffset;
-      const opacity = scrollPosition / windowHeight;
 
-      header.style.backgroundColor = `rgba(20, 20, 20, ${opacity})`;
+      if (header) {
+        const windowHeight = window.innerHeight;
+        const scrollPosition = window.pageYOffset;
+        const opacity = scrollPosition / windowHeight;
+
+        header.style.backgroundColor = `rgba(20, 20, 20, ${opacity})`;
+      }
     };
 
 
